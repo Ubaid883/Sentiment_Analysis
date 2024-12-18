@@ -29,23 +29,18 @@ The Sentiment Analysis project utilizes the IMDB dataset, which contains 50,000 
      - View sentiment distribution in pie charts and analyze the frequency of review lengths and sentiments in histograms.
 # Model Training
 The training process involves:
-
-    1. **Text Preprocessing:** Cleaning the dataset, tokenizing the text, and performing remove stop words.
-    2. **Feature Extraction:** Converting text data into numerical vectors using techniques like Bag of Words or TF-IDF.
-    3. **Model Training:** Training both Naive Bayes and Random Forest classifiers.
-    4. **Hyperparameter Tuning:** Optionally tuning model parameters for optimal performance.
-    5. **Evaluation:** Using metrics like accuracy, precision, recall, and F1-score to evaluate model performance.
+   1. **Text Preprocessing:** Cleaning the dataset, tokenizing the text, and performing remove stop words.
+   2. **Feature Extraction:** Converting text data into numerical vectors using techniques like Bag of Words or TF-IDF.
+   3. **Model Training:** Training both Naive Bayes and Random Forest classifiers.
+   4. **Hyperparameter Tuning:** Optionally tuning model parameters for optimal performance.
+   5. **Evaluation:** Using metrics like accuracy, precision, recall, and F1-score to evaluate model performance.
     
 # Evaluation
-
 After training, the models are evaluated using the following metrics:
-
-    - **Accuracy:** The percentage of correct predictions.
-    - **Confusion Matrix:** To visualize the performance of the models.
-    - **Precision, Recall, F1-score:** For a deeper analysis of the model's classification performance.
-    
+   -  **Accuracy:** The percentage of correct predictions.
+   -  **Confusion Matrix:** To visualize the performance of the models.
+   -  **Precision, Recall, F1-score:** For a deeper analysis of the model's classification performance.
 # Contributing
-
 Contributions are welcome! Feel free to open issues, discuss ideas, or submit pull requests.
 
 
